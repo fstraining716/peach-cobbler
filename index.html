@@ -199,7 +199,7 @@ Although you can use them, for a more unique website, replace these images with 
         <div class="container">
 			<h2 class="section-header"><span class="glyphicon glyphicon-pushpin text-primary"></span><br> Customer Experience Check</h2>
 			<p class="lead text-muted">What's your CX score?</p>   
-<form action="javascript:doCxCheck();" FS.identify(email_var, {"displayName": name_var, "email": email_var});>
+<form action="javascript:doCxCheck(FS.identify(email_var, {"displayName": name_var, "email": email_var}););" >
   <p>Name:
 	  <input type="text" name="name" id="form_name"></p>
   <p>Email:
